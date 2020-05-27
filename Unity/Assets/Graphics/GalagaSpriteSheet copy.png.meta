@@ -1,0 +1,3377 @@
+fileFormatVersion: 2
+guid: f6465d427d6f54f83bf1f2fb53c95ca2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -108614378373125693
+    second: GalagaSpriteSheet copy_0
+  - first:
+      213: 2181999034149613207
+    second: GalagaSpriteSheet copy_1
+  - first:
+      213: -2284658576964388120
+    second: GalagaSpriteSheet copy_2
+  - first:
+      213: -5818653257093506328
+    second: GalagaSpriteSheet copy_3
+  - first:
+      213: -2053378867732934202
+    second: GalagaSpriteSheet copy_4
+  - first:
+      213: 2285594429982049421
+    second: GalagaSpriteSheet copy_5
+  - first:
+      213: 37666017285619090
+    second: GalagaSpriteSheet copy_6
+  - first:
+      213: 7835859610394976629
+    second: GalagaSpriteSheet copy_7
+  - first:
+      213: 9110446507215857344
+    second: GalagaSpriteSheet copy_8
+  - first:
+      213: -8274500204202497584
+    second: GalagaSpriteSheet copy_9
+  - first:
+      213: 7323553786721980705
+    second: GalagaSpriteSheet copy_10
+  - first:
+      213: 9167508409499922122
+    second: GalagaSpriteSheet copy_11
+  - first:
+      213: -3880337967878418206
+    second: GalagaSpriteSheet copy_12
+  - first:
+      213: 6187254161556755866
+    second: GalagaSpriteSheet copy_13
+  - first:
+      213: -8088004391039295925
+    second: GalagaSpriteSheet copy_14
+  - first:
+      213: -2383357726141737329
+    second: GalagaSpriteSheet copy_15
+  - first:
+      213: 789270015962793040
+    second: GalagaSpriteSheet copy_16
+  - first:
+      213: 9223129871989454080
+    second: GalagaSpriteSheet copy_17
+  - first:
+      213: -2362827923633192930
+    second: GalagaSpriteSheet copy_18
+  - first:
+      213: 4580428457246987113
+    second: GalagaSpriteSheet copy_19
+  - first:
+      213: 1242309498953461168
+    second: GalagaSpriteSheet copy_20
+  - first:
+      213: 1105856322859885433
+    second: GalagaSpriteSheet copy_21
+  - first:
+      213: 2334832557196353656
+    second: GalagaSpriteSheet copy_22
+  - first:
+      213: -8081004011945084591
+    second: GalagaSpriteSheet copy_23
+  - first:
+      213: 4043911310985857730
+    second: GalagaSpriteSheet copy_24
+  - first:
+      213: 5752014080700711211
+    second: GalagaSpriteSheet copy_25
+  - first:
+      213: -1726718964528373250
+    second: GalagaSpriteSheet copy_26
+  - first:
+      213: 4315547921238463915
+    second: GalagaSpriteSheet copy_27
+  - first:
+      213: 7204987163125856673
+    second: GalagaSpriteSheet copy_28
+  - first:
+      213: -4725940468601297011
+    second: GalagaSpriteSheet copy_29
+  - first:
+      213: -538131985988791681
+    second: GalagaSpriteSheet copy_30
+  - first:
+      213: -2910813734345332719
+    second: GalagaSpriteSheet copy_31
+  - first:
+      213: -3582587295751948924
+    second: GalagaSpriteSheet copy_32
+  - first:
+      213: -6690891308978063205
+    second: GalagaSpriteSheet copy_33
+  - first:
+      213: -6798861247281677398
+    second: GalagaSpriteSheet copy_34
+  - first:
+      213: 1937615890813283831
+    second: GalagaSpriteSheet copy_35
+  - first:
+      213: -49057034354692897
+    second: GalagaSpriteSheet copy_36
+  - first:
+      213: -2378287084681325443
+    second: GalagaSpriteSheet copy_37
+  - first:
+      213: -7311845579596554504
+    second: GalagaSpriteSheet copy_38
+  - first:
+      213: -438043144448707710
+    second: GalagaSpriteSheet copy_39
+  - first:
+      213: 7704090362917384950
+    second: GalagaSpriteSheet copy_40
+  - first:
+      213: -7310113241796368282
+    second: GalagaSpriteSheet copy_41
+  - first:
+      213: -8161138176465058195
+    second: GalagaSpriteSheet copy_42
+  - first:
+      213: 6968026206447792847
+    second: GalagaSpriteSheet copy_43
+  - first:
+      213: 4509722631859384960
+    second: GalagaSpriteSheet copy_44
+  - first:
+      213: 5456679556321746594
+    second: GalagaSpriteSheet copy_45
+  - first:
+      213: 6542367786819440011
+    second: GalagaSpriteSheet copy_46
+  - first:
+      213: -8399726598071536550
+    second: GalagaSpriteSheet copy_47
+  - first:
+      213: 5980322828745394745
+    second: GalagaSpriteSheet copy_48
+  - first:
+      213: 2759522670096818733
+    second: GalagaSpriteSheet copy_49
+  - first:
+      213: 3559463165854587652
+    second: GalagaSpriteSheet copy_50
+  - first:
+      213: 5099008978030602335
+    second: GalagaSpriteSheet copy_51
+  - first:
+      213: -7917151485164573653
+    second: GalagaSpriteSheet copy_52
+  - first:
+      213: 265252704464260418
+    second: GalagaSpriteSheet copy_53
+  - first:
+      213: -8472512913867560403
+    second: GalagaSpriteSheet copy_54
+  - first:
+      213: -3122682093909626646
+    second: GalagaSpriteSheet copy_55
+  - first:
+      213: -3984245142452707150
+    second: GalagaSpriteSheet copy_56
+  - first:
+      213: 7850134030280147505
+    second: GalagaSpriteSheet copy_57
+  - first:
+      213: -4624685099637691000
+    second: GalagaSpriteSheet copy_58
+  - first:
+      213: -7881157601076984555
+    second: GalagaSpriteSheet copy_59
+  - first:
+      213: 969793364251541973
+    second: GalagaSpriteSheet copy_60
+  - first:
+      213: 5446037858333208243
+    second: GalagaSpriteSheet copy_61
+  - first:
+      213: -2059576326642915023
+    second: GalagaSpriteSheet copy_62
+  - first:
+      213: 4517723770296516240
+    second: GalagaSpriteSheet copy_63
+  - first:
+      213: 1943544517799407364
+    second: GalagaSpriteSheet copy_64
+  - first:
+      213: -3359522527281084385
+    second: GalagaSpriteSheet copy_65
+  - first:
+      213: -2901510161633161305
+    second: GalagaSpriteSheet copy_66
+  - first:
+      213: -7651434955924490493
+    second: GalagaSpriteSheet copy_67
+  - first:
+      213: 2004202440480267925
+    second: GalagaSpriteSheet copy_68
+  - first:
+      213: -7293054655764070332
+    second: GalagaSpriteSheet copy_69
+  - first:
+      213: 2518058285718625817
+    second: GalagaSpriteSheet copy_70
+  - first:
+      213: 6554864314167771966
+    second: GalagaSpriteSheet copy_71
+  - first:
+      213: -8035241700104915006
+    second: GalagaSpriteSheet copy_72
+  - first:
+      213: -5919862405641608853
+    second: GalagaSpriteSheet copy_73
+  - first:
+      213: 1050513753866195494
+    second: GalagaSpriteSheet copy_74
+  - first:
+      213: -3052359239797311219
+    second: GalagaSpriteSheet copy_75
+  - first:
+      213: -8900815550302290511
+    second: GalagaSpriteSheet copy_76
+  - first:
+      213: -8148849436985633076
+    second: GalagaSpriteSheet copy_77
+  - first:
+      213: -3708256848019145907
+    second: GalagaSpriteSheet copy_78
+  - first:
+      213: 5526638424930920187
+    second: GalagaSpriteSheet copy_79
+  - first:
+      213: -8289808241048952380
+    second: GalagaSpriteSheet copy_80
+  - first:
+      213: 964242528152625099
+    second: GalagaSpriteSheet copy_81
+  - first:
+      213: -1179370453381923338
+    second: GalagaSpriteSheet copy_82
+  - first:
+      213: -1398064227738288198
+    second: GalagaSpriteSheet copy_83
+  - first:
+      213: -3906207722540460686
+    second: GalagaSpriteSheet copy_84
+  - first:
+      213: -2654827354990220648
+    second: GalagaSpriteSheet copy_85
+  - first:
+      213: 626323723533172218
+    second: GalagaSpriteSheet copy_86
+  - first:
+      213: -5235436216510182880
+    second: GalagaSpriteSheet copy_87
+  - first:
+      213: -7150839387139256053
+    second: GalagaSpriteSheet copy_88
+  - first:
+      213: -3412503018840420547
+    second: GalagaSpriteSheet copy_89
+  - first:
+      213: 1327707517371728780
+    second: GalagaSpriteSheet copy_90
+  - first:
+      213: -5928846036764280586
+    second: GalagaSpriteSheet copy_91
+  - first:
+      213: -6017233884186481761
+    second: GalagaSpriteSheet copy_92
+  - first:
+      213: 6755565456258768984
+    second: GalagaSpriteSheet copy_93
+  - first:
+      213: 4164943920865845081
+    second: GalagaSpriteSheet copy_94
+  - first:
+      213: -2560651592797106954
+    second: GalagaSpriteSheet copy_95
+  - first:
+      213: -6107517673769604555
+    second: GalagaSpriteSheet copy_96
+  - first:
+      213: 1565866709594506754
+    second: GalagaSpriteSheet copy_97
+  - first:
+      213: -8215028629445480359
+    second: GalagaSpriteSheet copy_98
+  - first:
+      213: 8575505896786509407
+    second: GalagaSpriteSheet copy_99
+  - first:
+      213: -1118652572697743497
+    second: GalagaSpriteSheet copy_100
+  - first:
+      213: -5069716615901287481
+    second: GalagaSpriteSheet copy_101
+  - first:
+      213: -6403891332110850741
+    second: GalagaSpriteSheet copy_102
+  - first:
+      213: 6892996996137966566
+    second: GalagaSpriteSheet copy_103
+  - first:
+      213: -4210630107888162552
+    second: GalagaSpriteSheet copy_104
+  - first:
+      213: -5660190403803706364
+    second: GalagaSpriteSheet copy_105
+  - first:
+      213: -5447381797941261069
+    second: GalagaSpriteSheet copy_106
+  - first:
+      213: -7241330728709306955
+    second: GalagaSpriteSheet copy_107
+  - first:
+      213: -429761388334637239
+    second: GalagaSpriteSheet copy_108
+  - first:
+      213: 5657872699704193970
+    second: GalagaSpriteSheet copy_109
+  - first:
+      213: 3567388819031925302
+    second: GalagaSpriteSheet copy_110
+  - first:
+      213: -4527269447744805546
+    second: GalagaSpriteSheet copy_111
+  - first:
+      213: -223864918616623167
+    second: GalagaSpriteSheet copy_112
+  - first:
+      213: 7117181495883340553
+    second: GalagaSpriteSheet copy_113
+  - first:
+      213: 1794834408439126983
+    second: GalagaSpriteSheet copy_114
+  - first:
+      213: 5539560882827066381
+    second: GalagaSpriteSheet copy_115
+  - first:
+      213: 6028367130307763550
+    second: GalagaSpriteSheet copy_116
+  - first:
+      213: 8971739537539705159
+    second: GalagaSpriteSheet copy_117
+  - first:
+      213: -7889416676261197813
+    second: GalagaSpriteSheet copy_118
+  - first:
+      213: 7060074109048878685
+    second: GalagaSpriteSheet copy_119
+  - first:
+      213: 3158565724848413833
+    second: GalagaSpriteSheet copy_120
+  - first:
+      213: -5102997755367352682
+    second: GalagaSpriteSheet copy_121
+  - first:
+      213: 3778536565804915453
+    second: GalagaSpriteSheet copy_122
+  - first:
+      213: 1531643627360937453
+    second: GalagaSpriteSheet copy_123
+  - first:
+      213: 7757360560275002510
+    second: GalagaSpriteSheet copy_124
+  - first:
+      213: 7117445016592827307
+    second: GalagaSpriteSheet copy_125
+  - first:
+      213: 712982843777100325
+    second: GalagaSpriteSheet copy_126
+  - first:
+      213: -8963022772881011917
+    second: GalagaSpriteSheet copy_127
+  - first:
+      213: 6594781771659997422
+    second: GalagaSpriteSheet copy_128
+  - first:
+      213: 8371545947762349034
+    second: GalagaSpriteSheet copy_129
+  - first:
+      213: 8378399304260338079
+    second: GalagaSpriteSheet copy_130
+  - first:
+      213: 2147191078647363494
+    second: GalagaSpriteSheet copy_131
+  - first:
+      213: -5925455461642919328
+    second: GalagaSpriteSheet copy_132
+  - first:
+      213: 8938176934962294752
+    second: GalagaSpriteSheet copy_133
+  - first:
+      213: -6971035742596013978
+    second: GalagaSpriteSheet copy_134
+  - first:
+      213: 4423912079029350690
+    second: GalagaSpriteSheet copy_135
+  - first:
+      213: -2177282739268088342
+    second: GalagaSpriteSheet copy_136
+  - first:
+      213: 8204333327843664111
+    second: GalagaSpriteSheet copy_137
+  - first:
+      213: 19260150715951335
+    second: GalagaSpriteSheet copy_138
+  - first:
+      213: 2943207002938877449
+    second: GalagaSpriteSheet copy_139
+  - first:
+      213: 8282667279534601657
+    second: GalagaSpriteSheet copy_140
+  - first:
+      213: -8802845765775924148
+    second: GalagaSpriteSheet copy_141
+  - first:
+      213: 6096244836349122349
+    second: GalagaSpriteSheet copy_142
+  - first:
+      213: -8526893236262258652
+    second: GalagaSpriteSheet copy_143
+  - first:
+      213: 4691260136094900587
+    second: GalagaSpriteSheet copy_144
+  - first:
+      213: 1248880945601317829
+    second: GalagaSpriteSheet copy_145
+  - first:
+      213: 4157554515679210189
+    second: GalagaSpriteSheet copy_146
+  - first:
+      213: 6638127748949320415
+    second: GalagaSpriteSheet copy_147
+  - first:
+      213: 747857030726864480
+    second: GalagaSpriteSheet copy_148
+  - first:
+      213: -8156353412936398644
+    second: GalagaSpriteSheet copy_149
+  - first:
+      213: -2147925540408486408
+    second: GalagaSpriteSheet copy_150
+  - first:
+      213: 1801747181172384922
+    second: GalagaSpriteSheet copy_151
+  - first:
+      213: -1794155480034561727
+    second: GalagaSpriteSheet copy_152
+  - first:
+      213: 640142577917071308
+    second: GalagaSpriteSheet copy_153
+  - first:
+      213: 1877707379437603498
+    second: GalagaSpriteSheet copy_154
+  - first:
+      213: -6518989271875600864
+    second: GalagaSpriteSheet copy_155
+  - first:
+      213: 4160016984898259308
+    second: GalagaSpriteSheet copy_156
+  - first:
+      213: 7251973722837383746
+    second: GalagaSpriteSheet copy_157
+  - first:
+      213: -4062200678766338702
+    second: GalagaSpriteSheet copy_158
+  - first:
+      213: 9162392312465739271
+    second: GalagaSpriteSheet copy_159
+  - first:
+      213: -5510061379776145077
+    second: GalagaSpriteSheet copy_160
+  - first:
+      213: 762903623875423846
+    second: GalagaSpriteSheet copy_161
+  - first:
+      213: -3060937219031855783
+    second: GalagaSpriteSheet copy_162
+  - first:
+      213: 327541783113164646
+    second: GalagaSpriteSheet copy_163
+  - first:
+      213: 5271133946071300176
+    second: GalagaSpriteSheet copy_164
+  - first:
+      213: 1543426587097032588
+    second: GalagaSpriteSheet copy_165
+  - first:
+      213: 1162912637739434881
+    second: GalagaSpriteSheet copy_166
+  - first:
+      213: 7382693543090313857
+    second: GalagaSpriteSheet copy_167
+  - first:
+      213: 4559349541392630115
+    second: GalagaSpriteSheet copy_168
+  - first:
+      213: -5720978203389613839
+    second: GalagaSpriteSheet copy_169
+  - first:
+      213: 5545417372039889704
+    second: GalagaSpriteSheet copy_170
+  - first:
+      213: -7533135593997102680
+    second: GalagaSpriteSheet copy_171
+  - first:
+      213: 139477477127053489
+    second: GalagaSpriteSheet copy_172
+  - first:
+      213: -4233029703178709725
+    second: GalagaSpriteSheet copy_173
+  - first:
+      213: -2077621820296994928
+    second: GalagaSpriteSheet copy_174
+  - first:
+      213: -8936588009069470671
+    second: GalagaSpriteSheet copy_175
+  - first:
+      213: -7042324192456826319
+    second: GalagaSpriteSheet copy_176
+  - first:
+      213: -8193645096065521257
+    second: GalagaSpriteSheet copy_177
+  - first:
+      213: -7358016898012855382
+    second: GalagaSpriteSheet copy_178
+  - first:
+      213: -853574374420016242
+    second: GalagaSpriteSheet copy_179
+  - first:
+      213: -4518727930861509599
+    second: GalagaSpriteSheet copy_180
+  - first:
+      213: -6508243736163233579
+    second: GalagaSpriteSheet copy_181
+  - first:
+      213: -1065676744726146594
+    second: GalagaSpriteSheet copy_182
+  - first:
+      213: -7036262068997942176
+    second: GalagaSpriteSheet copy_183
+  - first:
+      213: -4260790570638084256
+    second: GalagaSpriteSheet copy_184
+  - first:
+      213: 4341163021169256347
+    second: GalagaSpriteSheet copy_185
+  - first:
+      213: 278169406270447592
+    second: GalagaSpriteSheet copy_186
+  - first:
+      213: -632844250676592511
+    second: GalagaSpriteSheet copy_187
+  - first:
+      213: -7551634564211971632
+    second: GalagaSpriteSheet copy_188
+  - first:
+      213: -6742821734929674418
+    second: GalagaSpriteSheet copy_189
+  - first:
+      213: -4899443636587010972
+    second: GalagaSpriteSheet copy_190
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 303
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29db96c0b01d58000800000000000000
+      internalID: 37666017285619090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 303
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5716c6bacc09ebc60800000000000000
+      internalID: 7835859610394976629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 304
+        width: 31
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121d70ffd5d72a560800000000000000
+      internalID: 7323553786721980705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_11
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 303
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace26afa358893f70800000000000000
+      internalID: 9167508409499922122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 302
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e9d42cbd2a1cf80800000000000000
+      internalID: -8088004391039295925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 313
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8693a096cc9ceed0800000000000000
+      internalID: -2383357726141737329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 312
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0544455d5ec04fa00800000000000000
+      internalID: 789270015962793040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 312
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005b93990c32fff70800000000000000
+      internalID: 9223129871989454080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_18
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 312
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e104872b58c853fd0800000000000000
+      internalID: -2362827923633192930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 312
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9631c49e963f09f30800000000000000
+      internalID: 4580428457246987113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 312
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde63248e19d3110800000000000000
+      internalID: 1242309498953461168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 312
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973eea0777ac85f00800000000000000
+      internalID: 1105856322859885433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 308
+        width: 20
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870a4bd17ddf66020800000000000000
+      internalID: 2334832557196353656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 304
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b210637b45243df40800000000000000
+      internalID: 5752014080700711211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 289
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5189838f7e3eb30800000000000000
+      internalID: 4315547921238463915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 288
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9bd55b6a14df360800000000000000
+      internalID: 7204987163125856673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 288
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d876063de261a6eb0800000000000000
+      internalID: -4725940468601297011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_30
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 288
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72dcd45fcb2888f0800000000000000
+      internalID: -538131985988791681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 288
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118a40da456ba97d0800000000000000
+      internalID: -2910813734345332719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_32
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 288
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485b0ebf5d7184ec0800000000000000
+      internalID: -3582587295751948924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b983d99edcd2523a0800000000000000
+      internalID: -6690891308978063205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_34
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 288
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab3b9ea7b795a1a0800000000000000
+      internalID: -6798861247281677398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 264
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fde313036bc3ea10800000000000000
+      internalID: 1937615890813283831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_36
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 265
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdced8d13e6b15ff0800000000000000
+      internalID: -49057034354692897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 265
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d749ba74f70aefed0800000000000000
+      internalID: -2378287084681325443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_38
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 265
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe13a76f2b178a90800000000000000
+      internalID: -7311845579596554504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 264
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283f6dab412cbe9f0800000000000000
+      internalID: -438043144448707710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_40
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 264
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f27337fd5d6aea60800000000000000
+      internalID: 7704090362917384950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_41
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 264
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66829dabcb24d8a90800000000000000
+      internalID: -7310113241796368282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_42
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 264
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66cbec6110ddbe80800000000000000
+      internalID: -8161138176465058195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_43
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 298
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0.53392196, y: 0.000005086263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2fee4aae663b060800000000000000
+      internalID: 6968026206447792847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_44
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 195
+        width: 51
+        height: 87
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082b48317d0c59e30800000000000000
+      internalID: 4509722631859384960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_46
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 199
+        width: 50
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dc453d6d82bca50800000000000000
+      internalID: 6542367786819440011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_48
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 198
+        width: 49
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a47897def5ef250800000000000000
+      internalID: 5980322828745394745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_53
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 262
+        width: 22
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24dcd49eded5ea300800000000000000
+      internalID: 265252704464260418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_54
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 264
+        width: 20
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2aa306e4669b6a80800000000000000
+      internalID: -8472512913867560403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bea74be396349b40800000000000000
+      internalID: 5446037858333208243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_62
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 241
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13925a63e3aea63e0800000000000000
+      internalID: -2059576326642915023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_63
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 241
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ebcd945dd22be30800000000000000
+      internalID: 4517723770296516240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_64
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 241
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f679c017bd8fa10800000000000000
+      internalID: 1943544517799407364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_65
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 240
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f180d7a9f049061d0800000000000000
+      internalID: -3359522527281084385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 240
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af4baf71e3cbb7d0800000000000000
+      internalID: -2901510161633161305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 240
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3073d165274a0d590800000000000000
+      internalID: -7651434955924490493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_68
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 240
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e1cca308b50db10800000000000000
+      internalID: 2004202440480267925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_75
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 322
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fff88177d3a5d0800000000000000
+      internalID: -3052359239797311219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_79
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 240
+        width: 30
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf62808bd5092bc40800000000000000
+      internalID: 5526638424930920187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_80
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 153
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1eb28735fa4fc80800000000000000
+      internalID: -8289808241048952380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 217
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a02b6ef7ef757b0800000000000000
+      internalID: -5235436216510182880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_88
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 219
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0151b3d67d13cc90800000000000000
+      internalID: -7150839387139256053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_89
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 217
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f8117a59a54a0d0800000000000000
+      internalID: -3412503018840420547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_90
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 218
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83ce8ad3f6fc6210800000000000000
+      internalID: 1327707517371728780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_91
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 218
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8bea221f188bda0800000000000000
+      internalID: -5928846036764280586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_92
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 218
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bee9ab9ad7e7ca0800000000000000
+      internalID: -6017233884186481761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_93
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 219
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850243d6df690cd50800000000000000
+      internalID: 6755565456258768984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_94
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 219
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f91a0ed6adcc930800000000000000
+      internalID: 4164943920865845081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_97
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 224
+        width: 36
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2068dfed9731bb510800000000000000
+      internalID: 1565866709594506754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_98
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 227
+        width: 36
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950fc329cfa5efd80800000000000000
+      internalID: -8215028629445480359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_100
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 156
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f2649796fb970f0800000000000000
+      internalID: -1118652572697743497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_108
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 211
+        width: 42
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f92265b4e290af0800000000000000
+      internalID: -429761388334637239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_110
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 211
+        width: 42
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6322916ea39e18130800000000000000
+      internalID: 3567388819031925302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_111
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 178
+        width: 14
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65521bc7c68eb21c0800000000000000
+      internalID: -4527269447744805546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 193
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b1c10bcde45c260800000000000000
+      internalID: 7117181495883340553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_114
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb99a1926888e810800000000000000
+      internalID: 1794834408439126983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_115
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7e88e54970ec40800000000000000
+      internalID: 5539560882827066381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_116
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 193
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d92a127ff09a350800000000000000
+      internalID: 6028367130307763550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_117
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 194
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749a1683395028c70800000000000000
+      internalID: 8971739537539705159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_118
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 194
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0888663559238290800000000000000
+      internalID: -7889416676261197813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_119
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 195
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567acd0ffb6af160800000000000000
+      internalID: 7060074109048878685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_120
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 195
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c505dbaca75db20800000000000000
+      internalID: 3158565724848413833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_123
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 162
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5e65b93cd714510800000000000000
+      internalID: 1531643627360937453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_125
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 156
+        width: 36
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3c362688e36c260800000000000000
+      internalID: 7117445016592827307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_127
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 171
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bc0b4b642fc9380800000000000000
+      internalID: -8963022772881011917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_128
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 170
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0f307a41f558b50800000000000000
+      internalID: 6594781771659997422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_129
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 170
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae35c356fa4bd2470800000000000000
+      internalID: 8371545947762349034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_130
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 171
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9141dcc6cd064470800000000000000
+      internalID: 8378399304260338079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_131
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7f9a3e8ea5ccd10800000000000000
+      internalID: 2147191078647363494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_132
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 170
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062206ce6ad84cda0800000000000000
+      internalID: -5925455461642919328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_133
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 170
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef640cd098ca0c70800000000000000
+      internalID: 8938176934962294752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_134
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 171
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660630e1de7e14f90800000000000000
+      internalID: -6971035742596013978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_135
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 166
+        width: 17
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221ba14d894e46d30800000000000000
+      internalID: 4423912079029350690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_136
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 166
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0.47704643, y: -0.014728546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed065662ecb8c1e0800000000000000
+      internalID: -2177282739268088342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 177
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0250971b5abd170800000000000000
+      internalID: 8204333327843664111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_138
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 179
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8aeb9410d644000800000000000000
+      internalID: 19260150715951335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_139
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 175
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9062d96ec2f58d820800000000000000
+      internalID: 2943207002938877449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_140
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 176
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5396dd102f1f270800000000000000
+      internalID: 8282667279534601657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_141
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 147
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44ef5e5a6206d580800000000000000
+      internalID: -8802845765775924148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_142
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 148
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27166e11663a9450800000000000000
+      internalID: 6096244836349122349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_143
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 146
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42838ee67c36aa980800000000000000
+      internalID: -8526893236262258652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_144
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 148
+        width: 12
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6123e80d34ba1140800000000000000
+      internalID: 4691260136094900587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_145
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 146
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb02596a9ae45110800000000000000
+      internalID: 1248880945601317829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_146
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 146
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca6169edc992b930800000000000000
+      internalID: 4157554515679210189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_147
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a9c1740e5f1c50800000000000000
+      internalID: 6638127748949320415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_148
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 123
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ec043d10ce06a00800000000000000
+      internalID: 747857030726864480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_149
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 122
+        width: 12
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8816ff8cfcece80800000000000000
+      internalID: -8156353412936398644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_150
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 121
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f596f7e9190132e0800000000000000
+      internalID: -2147925540408486408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_151
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 122
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9467d4e387110910800000000000000
+      internalID: 1801747181172384922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_152
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 121
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14138b4c811e917e0800000000000000
+      internalID: -1794155480034561727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_153
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 122
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8952784e32e800800000000000000
+      internalID: 640142577917071308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_154
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 122
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa028fb9e4fe0a10800000000000000
+      internalID: 1877707379437603498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_155
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 97
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eb54bdbc5e785a0800000000000000
+      internalID: -6518989271875600864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_156
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 98
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69c37438695bb930800000000000000
+      internalID: 4160016984898259308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_157
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 99
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a7036adaf24a460800000000000000
+      internalID: 7251973722837383746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_158
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 99
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d18cf410a20a7c0800000000000000
+      internalID: -4062200678766338702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_159
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 99
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e4a45834b572f70800000000000000
+      internalID: 9162392312465739271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_160
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 98
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4918df5e545883b0800000000000000
+      internalID: -5510061379776145077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_161
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 98
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ee3facdc0669a00800000000000000
+      internalID: 762903623875423846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_164
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 109
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05835137564d62940800000000000000
+      internalID: 5271133946071300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_166
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 72
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838545f1ee732010800000000000000
+      internalID: 1162912637739434881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_167
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ad77989a8947660800000000000000
+      internalID: 7382693543090313857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3614c8d5040164f30800000000000000
+      internalID: 4559349541392630115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_169
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 72
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a53392a00b90b0800000000000000
+      internalID: -5720978203389613839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_170
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 72
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823c7bf08b745fc40800000000000000
+      internalID: 5545417372039889704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_171
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 72
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a193fae61de47790800000000000000
+      internalID: -7533135593997102680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 72
+        width: 16
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b06356c6068fe100800000000000000
+      internalID: 139477477127053489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_173
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 80
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3251b5a99e14145c0800000000000000
+      internalID: -4233029703178709725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_174
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 78
+        width: 19
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd89f46fdca23e0800000000000000
+      internalID: -2077621820296994928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_175
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 77
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1667cd8cdaf380800000000000000
+      internalID: -8936588009069470671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_176
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 77
+        width: 19
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132a8737573a44e90800000000000000
+      internalID: -7042324192456826319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_177
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 77
+        width: 12
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799a46962335a4e80800000000000000
+      internalID: -8193645096065521257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_178
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 75
+        width: 11
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa34f9e9d9213e990800000000000000
+      internalID: -7358016898012855382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_179
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 50
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83915ff0ae7724f0800000000000000
+      internalID: -853574374420016242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_180
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 49
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1242d5c53e04a41c0800000000000000
+      internalID: -4518727930861509599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0545addc21ea5a0800000000000000
+      internalID: -6508243736163233579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_182
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1143995a4f531f0800000000000000
+      internalID: -1065676744726146594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_183
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06492de8dec2a5e90800000000000000
+      internalID: -7036262068997942176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_184
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 48
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06778c6fc81aed4c0800000000000000
+      internalID: -4260790570638084256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_185
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97eadc64c8ee3c30800000000000000
+      internalID: 4341163021169256347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_0
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 321
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9e19f5ccf1e7ef0800000000000000
+      internalID: -108614378373125693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
