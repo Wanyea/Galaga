@@ -10,7 +10,14 @@ public class PlayerMovementScript : MonoBehaviour
 {
     //Reference to main player script
     [SerializeField]
-    PlayerScript playerScript;
+    PlayerScript playerScript = null;
+
+    [SerializeField]
+    Vector2 MoveLeftAmount = new Vector2(-5.0f, 0.0f);
+
+    [SerializeField]
+    Vector2 MoveRightAmount = new Vector2(5.0f, 0.0f); 
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +28,7 @@ public class PlayerMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Checks from player input script to initiate movement. 
         if(playerScript.inputScript.isLeftPressed) 
         {
             MovePlayerLeft();
@@ -33,22 +41,22 @@ public class PlayerMovementScript : MonoBehaviour
 
             StopMovement();
         }
+
+
         
     }
 
 
     private void MovePlayerLeft() {
-        //TODO: Create SerializedField where data can be entered via Unity 
-        playerScript.rb2d.velocity = new Vector2(-5, 0);
+        playerScript.rigidbody.velocity = (MoveLeftAmount);
     }
 
     private void MovePlayerRight() {
-        //TODO: Create SerializedField where data can be entered via Unity 
-        playerScript.rb2d.velocity = new Vector2(5, 0);
+        playerScript.rigidbody.velocity = (MoveRightAmount);
 
     }
 
     private void StopMovement () {
-        playerScript.rb2d.velocity = new Vector2(0, 0);
+        playerScript.rigidbody.velocity = new Vector2(0, 0);
     }
 }

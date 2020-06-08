@@ -14,6 +14,7 @@ public class PlayerInputScript : MonoBehaviour
 
     internal bool isLeftPressed;
     internal bool isRightPressed;
+    internal bool isShootPressed;
 
 
     // Start is called before the first frame update
@@ -40,6 +41,14 @@ public class PlayerInputScript : MonoBehaviour
         } else {
             isRightPressed = false;
 
+        }
+
+        if(Input.GetKeyDown("space") || Input.GetButtonDown("Fire1")) {
+            isShootPressed = true;
+
+        } else {
+
+            isShootPressed = false;
         }
     }
 }

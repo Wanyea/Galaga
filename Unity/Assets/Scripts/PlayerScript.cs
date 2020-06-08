@@ -10,30 +10,36 @@ public class PlayerScript : MonoBehaviour {
 
     //Reference all sub player scripts 
     [SerializeField]
-    internal PlayerInputScript inputScript;
+    public PlayerInputScript inputScript;
 
     [SerializeField]
-    internal PlayerMovementScript movementScript;
+    public PlayerMovementScript movementScript;
 
     [SerializeField]
-    internal PlayerCollisionScript collisonScript;
+    public PlayerCollisionScript collisonScript;
 
-
+    public new Rigidbody2D rigidbody { get; private set; }
+    Animator animator;
+    Object blasterRef;
 
 // Start is called before the first frame update
 void Start()
-{
-
-//anim = GetComponent<Animator>();
-rb2d = GetComponent<Rigidbody2D>();
-
+{   
+    blasterRef = Resources.Load("Blaster");
+    animator = GetComponent<Animator>();
+    rigidbody = GetComponent<Rigidbody2D>();
 }
 
 // Update is called once per frame
 void Update() 
 {
+    if(inputScript.isShootPressed) 
+    {
 
-}
+    GameObject Blaster = (GameObject)Instantiate(blasterRef);
+    Blaster.transform.position = new Vector3(transform.position.x, transform.position.y + .6f, -1);
 
-    }   
+    }
+        }
+            }   
 
