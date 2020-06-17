@@ -6,7 +6,8 @@ using UnityEngine;
 //Main Player Script - Connects all sub scripts
 //===============================================
 
-public class PlayerScript : MonoBehaviour {
+public class PlayerScript : MonoBehaviour 
+{
 
     //Reference all sub player scripts 
     [SerializeField]
@@ -17,6 +18,9 @@ public class PlayerScript : MonoBehaviour {
 
     [SerializeField]
     public PlayerCollisionScript collisonScript;
+
+    [SerializeField]
+    public BlasterScript blasterScript;
 
     public new Rigidbody2D rigidbody { get; private set; }
     Animator animator;
@@ -37,9 +41,9 @@ void Update()
     {
 
     GameObject Blaster = (GameObject)Instantiate(blasterRef);
-    Blaster.transform.position = new Vector3(transform.position.x, transform.position.y + .6f, -1);
+    Blaster.transform.position = new Vector3(transform.position.x + 0.08f, transform.position.y + .6f, -1);
 
     }
-        }
-            }   
+}  
 
+}

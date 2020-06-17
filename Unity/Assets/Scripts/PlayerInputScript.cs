@@ -43,7 +43,7 @@ public class PlayerInputScript : MonoBehaviour
 
         }
 
-        if(Input.GetKeyDown("space") || Input.GetButtonDown("Fire1")) {
+        if(Input.GetKeyDown("space") || Input.GetButtonDown("Fire1") || Input.GetKeyDown("up") || Input.GetKeyDown(KeyCode.W)) {
             isShootPressed = true;
 
         } else {
