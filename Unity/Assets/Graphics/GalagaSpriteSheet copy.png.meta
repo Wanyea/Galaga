@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6465d427d6f54f83bf1f2fb53c95ca2
+guid: 032a3d77b58bb4b11a9e5be5f501b1b1
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -656,18 +656,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -675,12 +663,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_6
       rect:
         serializedVersion: 2
-        x: 209
-        y: 303
-        width: 33
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 210
+        y: 305
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -696,12 +684,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_7
       rect:
         serializedVersion: 2
-        x: 247
+        x: 246
         y: 303
-        width: 34
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -714,15 +702,57 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: GalagaSpriteSheet copy_8
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 328
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6accf34dece6e70800000000000000
+      internalID: 9110446507215857344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GalagaSpriteSheet copy_9
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 328
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9ec9a87e11b2d80800000000000000
+      internalID: -8274500204202497584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: GalagaSpriteSheet copy_10
       rect:
         serializedVersion: 2
-        x: 289
-        y: 304
-        width: 31
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 285
+        y: 302
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -738,12 +768,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_11
       rect:
         serializedVersion: 2
-        x: 329
-        y: 303
-        width: 32
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 373
+        y: 321
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -756,15 +786,36 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: GalagaSpriteSheet copy_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 328
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e055285d25462ac0800000000000000
+      internalID: -3880337967878418206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: GalagaSpriteSheet copy_14
       rect:
         serializedVersion: 2
-        x: 394
-        y: 302
+        x: 395
+        y: 320
         width: 12
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -784,8 +835,8 @@ TextureImporter:
         y: 313
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -805,8 +856,8 @@ TextureImporter:
         y: 312
         width: 16
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -826,8 +877,8 @@ TextureImporter:
         y: 312
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -847,8 +898,8 @@ TextureImporter:
         y: 312
         width: 14
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -868,8 +919,8 @@ TextureImporter:
         y: 312
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -889,8 +940,8 @@ TextureImporter:
         y: 312
         width: 14
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -910,8 +961,8 @@ TextureImporter:
         y: 312
         width: 15
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -927,12 +978,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_22
       rect:
         serializedVersion: 2
-        x: 182
-        y: 308
-        width: 20
-        height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 184
+        y: 312
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -945,6 +996,27 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: GalagaSpriteSheet copy_24
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca0f7a69ebde1830800000000000000
+      internalID: 4043911310985857730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: GalagaSpriteSheet copy_25
       rect:
         serializedVersion: 2
@@ -952,8 +1024,8 @@ TextureImporter:
         y: 304
         width: 6
         height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -966,6 +1038,27 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: GalagaSpriteSheet copy_26
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 302
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef12b5410467908e0800000000000000
+      internalID: -1726718964528373250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: GalagaSpriteSheet copy_27
       rect:
         serializedVersion: 2
@@ -973,8 +1066,8 @@ TextureImporter:
         y: 289
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -994,8 +1087,8 @@ TextureImporter:
         y: 288
         width: 16
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1015,8 +1108,8 @@ TextureImporter:
         y: 288
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1036,8 +1129,8 @@ TextureImporter:
         y: 288
         width: 14
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1057,8 +1150,8 @@ TextureImporter:
         y: 288
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1078,8 +1171,8 @@ TextureImporter:
         y: 288
         width: 14
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1099,8 +1192,8 @@ TextureImporter:
         y: 288
         width: 15
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1120,8 +1213,8 @@ TextureImporter:
         y: 288
         width: 15
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1141,8 +1234,8 @@ TextureImporter:
         y: 264
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,8 +1255,8 @@ TextureImporter:
         y: 265
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,8 +1276,8 @@ TextureImporter:
         y: 265
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1204,8 +1297,8 @@ TextureImporter:
         y: 265
         width: 14
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1225,8 +1318,8 @@ TextureImporter:
         y: 264
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1246,8 +1339,8 @@ TextureImporter:
         y: 264
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1267,8 +1360,8 @@ TextureImporter:
         y: 264
         width: 15
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1288,8 +1381,8 @@ TextureImporter:
         y: 264
         width: 15
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1302,36 +1395,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_43
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 298
-        width: 12
-        height: 13
-      alignment: 9
-      pivot: {x: 0.53392196, y: 0.000005086263}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc2fee4aae663b060800000000000000
-      internalID: 6968026206447792847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GalagaSpriteSheet copy_44
       rect:
         serializedVersion: 2
-        x: 207
-        y: 195
+        x: 208
+        y: 198
         width: 51
-        height: 87
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1344,22 +1416,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_46
+      name: GalagaSpriteSheet copy_45
       rect:
         serializedVersion: 2
         x: 263
-        y: 199
+        y: 198
         width: 50
-        height: 83
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8dc453d6d82bca50800000000000000
-      internalID: 6542367786819440011
+      spriteID: 2ae91bf45250abb40800000000000000
+      internalID: 5456679556321746594
       vertices: []
       indices: 
       edges: []
@@ -1368,13 +1440,13 @@ TextureImporter:
       name: GalagaSpriteSheet copy_48
       rect:
         serializedVersion: 2
-        x: 319
-        y: 198
-        width: 49
-        height: 85
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+        x: 368
+        y: 298
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0.48198953, y: 0.5231585}
+      border: {x: 1, y: 0, z: 1, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1386,43 +1458,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_53
+      name: GalagaSpriteSheet copy_60
       rect:
         serializedVersion: 2
-        x: 333
-        y: 262
-        width: 22
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 392
+        y: 299
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24dcd49eded5ea300800000000000000
-      internalID: 265252704464260418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_54
-      rect:
-        serializedVersion: 2
-        x: 334
-        y: 264
-        width: 20
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2aa306e4669b6a80800000000000000
-      internalID: -8472512913867560403
+      spriteID: 5d18eb53de5657d00800000000000000
+      internalID: 969793364251541973
       vertices: []
       indices: 
       edges: []
@@ -1435,8 +1486,8 @@ TextureImporter:
         y: 240
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1456,8 +1507,8 @@ TextureImporter:
         y: 241
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1477,8 +1528,8 @@ TextureImporter:
         y: 241
         width: 15
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1498,8 +1549,8 @@ TextureImporter:
         y: 241
         width: 14
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1519,8 +1570,8 @@ TextureImporter:
         y: 240
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1540,8 +1591,8 @@ TextureImporter:
         y: 240
         width: 14
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1561,8 +1612,8 @@ TextureImporter:
         y: 240
         width: 15
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1582,8 +1633,8 @@ TextureImporter:
         y: 240
         width: 15
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1596,64 +1647,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_75
+      name: GalagaSpriteSheet copy_77
       rect:
         serializedVersion: 2
-        x: 369
-        y: 322
-        width: 13
-        height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d09fff88177d3a5d0800000000000000
-      internalID: -3052359239797311219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_79
-      rect:
-        serializedVersion: 2
-        x: 329
+        x: 273
         y: 240
         width: 30
         height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf62808bd5092bc40800000000000000
-      internalID: 5526638424930920187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_80
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 153
-        width: 11
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c1eb28735fa4fc80800000000000000
-      internalID: -8289808241048952380
+      spriteID: cc6545c8c9879ee80800000000000000
+      internalID: -8148849436985633076
       vertices: []
       indices: 
       edges: []
@@ -1666,8 +1675,8 @@ TextureImporter:
         y: 217
         width: 10
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1687,8 +1696,8 @@ TextureImporter:
         y: 219
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1708,8 +1717,8 @@ TextureImporter:
         y: 217
         width: 12
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1729,8 +1738,8 @@ TextureImporter:
         y: 218
         width: 12
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1750,8 +1759,8 @@ TextureImporter:
         y: 218
         width: 14
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1771,8 +1780,8 @@ TextureImporter:
         y: 218
         width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1792,8 +1801,8 @@ TextureImporter:
         y: 219
         width: 13
         height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1813,8 +1822,8 @@ TextureImporter:
         y: 219
         width: 9
         height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1827,120 +1836,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_97
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 224
-        width: 36
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2068dfed9731bb510800000000000000
-      internalID: 1565866709594506754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_98
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 227
-        width: 36
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 950fc329cfa5efd80800000000000000
-      internalID: -8215028629445480359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_100
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 156
-        width: 14
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77f2649796fb970f0800000000000000
-      internalID: -1118652572697743497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_108
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 211
-        width: 42
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94f92265b4e290af0800000000000000
-      internalID: -429761388334637239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GalagaSpriteSheet copy_110
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 211
-        width: 42
-        height: 4
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6322916ea39e18130800000000000000
-      internalID: 3567388819031925302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GalagaSpriteSheet copy_111
       rect:
         serializedVersion: 2
-        x: 362
-        y: 178
-        width: 14
-        height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 320
+        y: 200
+        width: 49
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1960,8 +1864,8 @@ TextureImporter:
         y: 193
         width: 10
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1981,8 +1885,8 @@ TextureImporter:
         y: 194
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2002,8 +1906,8 @@ TextureImporter:
         y: 193
         width: 13
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2023,8 +1927,8 @@ TextureImporter:
         y: 193
         width: 13
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2044,8 +1948,8 @@ TextureImporter:
         y: 194
         width: 14
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2065,8 +1969,8 @@ TextureImporter:
         y: 194
         width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2086,8 +1990,8 @@ TextureImporter:
         y: 195
         width: 13
         height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2107,8 +2011,8 @@ TextureImporter:
         y: 195
         width: 9
         height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2124,12 +2028,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_123
       rect:
         serializedVersion: 2
-        x: 281
-        y: 162
-        width: 30
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 280
+        y: 159
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2145,12 +2049,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_125
       rect:
         serializedVersion: 2
-        x: 318
+        x: 320
         y: 156
-        width: 36
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2170,8 +2074,8 @@ TextureImporter:
         y: 171
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2191,8 +2095,8 @@ TextureImporter:
         y: 170
         width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2212,8 +2116,8 @@ TextureImporter:
         y: 170
         width: 12
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2233,8 +2137,8 @@ TextureImporter:
         y: 171
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2254,8 +2158,8 @@ TextureImporter:
         y: 170
         width: 12
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2275,8 +2179,8 @@ TextureImporter:
         y: 170
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2296,8 +2200,8 @@ TextureImporter:
         y: 170
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2315,10 +2219,10 @@ TextureImporter:
         serializedVersion: 2
         x: 209
         y: 171
-        width: 13
+        width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2334,12 +2238,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_135
       rect:
         serializedVersion: 2
-        x: 231
-        y: 166
-        width: 17
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 232
+        y: 168
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2355,12 +2259,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_136
       rect:
         serializedVersion: 2
-        x: 253
-        y: 166
-        width: 21
-        height: 21
-      alignment: 9
-      pivot: {x: 0.47704643, y: -0.014728546}
+        x: 254
+        y: 164
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2373,36 +2277,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_137
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 177
-        width: 8
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe0250971b5abd170800000000000000
-      internalID: 8204333327843664111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GalagaSpriteSheet copy_138
       rect:
         serializedVersion: 2
-        x: 264
-        y: 179
-        width: 6
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 388
+        y: 153
+        width: 13
+        height: 17
+      alignment: 9
+      pivot: {x: 0.52421963, y: 0.48609242}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2415,36 +2298,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GalagaSpriteSheet copy_139
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 175
-        width: 5
-        height: 5
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9062d96ec2f58d820800000000000000
-      internalID: 2943207002938877449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: GalagaSpriteSheet copy_140
       rect:
         serializedVersion: 2
-        x: 387
-        y: 176
-        width: 12
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 386
+        y: 177
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2464,8 +2326,8 @@ TextureImporter:
         y: 147
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2485,8 +2347,8 @@ TextureImporter:
         y: 148
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2506,8 +2368,8 @@ TextureImporter:
         y: 146
         width: 10
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2527,8 +2389,8 @@ TextureImporter:
         y: 148
         width: 12
         height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2548,8 +2410,8 @@ TextureImporter:
         y: 146
         width: 10
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2569,8 +2431,8 @@ TextureImporter:
         y: 146
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2590,8 +2452,8 @@ TextureImporter:
         y: 146
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2611,8 +2473,8 @@ TextureImporter:
         y: 123
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2632,8 +2494,8 @@ TextureImporter:
         y: 122
         width: 12
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2653,8 +2515,8 @@ TextureImporter:
         y: 121
         width: 12
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2674,8 +2536,8 @@ TextureImporter:
         y: 122
         width: 11
         height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2695,8 +2557,8 @@ TextureImporter:
         y: 121
         width: 12
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2716,8 +2578,8 @@ TextureImporter:
         y: 122
         width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2737,8 +2599,8 @@ TextureImporter:
         y: 122
         width: 11
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2758,8 +2620,8 @@ TextureImporter:
         y: 97
         width: 12
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2779,8 +2641,8 @@ TextureImporter:
         y: 98
         width: 12
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2800,8 +2662,8 @@ TextureImporter:
         y: 99
         width: 12
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2821,8 +2683,8 @@ TextureImporter:
         y: 99
         width: 13
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2842,8 +2704,8 @@ TextureImporter:
         y: 99
         width: 13
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2863,8 +2725,8 @@ TextureImporter:
         y: 98
         width: 14
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2884,8 +2746,8 @@ TextureImporter:
         y: 98
         width: 15
         height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2901,12 +2763,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_164
       rect:
         serializedVersion: 2
-        x: 334
-        y: 109
-        width: 7
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 361
+        y: 147
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2926,8 +2788,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2947,8 +2809,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2968,8 +2830,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2989,8 +2851,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3010,8 +2872,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3031,8 +2893,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3052,8 +2914,8 @@ TextureImporter:
         y: 72
         width: 16
         height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3069,12 +2931,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_173
       rect:
         serializedVersion: 2
-        x: 260
+        x: 264
         y: 80
-        width: 22
-        height: 20
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3090,12 +2952,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_174
       rect:
         serializedVersion: 2
-        x: 286
-        y: 78
-        width: 19
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 288
+        y: 80
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3111,12 +2973,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_175
       rect:
         serializedVersion: 2
-        x: 308
-        y: 77
-        width: 22
-        height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 312
+        y: 80
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3132,12 +2994,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_176
       rect:
         serializedVersion: 2
-        x: 334
-        y: 77
-        width: 19
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 337
+        y: 80
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3153,12 +3015,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_177
       rect:
         serializedVersion: 2
-        x: 358
-        y: 77
-        width: 12
-        height: 21
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 360
+        y: 80
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3174,12 +3036,12 @@ TextureImporter:
       name: GalagaSpriteSheet copy_178
       rect:
         serializedVersion: 2
-        x: 374
-        y: 75
-        width: 11
-        height: 23
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 376
+        y: 80
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3199,8 +3061,8 @@ TextureImporter:
         y: 50
         width: 16
         height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3220,8 +3082,8 @@ TextureImporter:
         y: 49
         width: 16
         height: 14
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3241,8 +3103,8 @@ TextureImporter:
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3262,8 +3124,8 @@ TextureImporter:
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3283,8 +3145,8 @@ TextureImporter:
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3304,8 +3166,8 @@ TextureImporter:
         y: 48
         width: 14
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3325,8 +3187,8 @@ TextureImporter:
         y: 48
         width: 13
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3342,13 +3204,13 @@ TextureImporter:
       name: GalagaSpriteSheet copy_0
       rect:
         serializedVersion: 2
-        x: 394
-        y: 321
-        width: 15
-        height: 14
+        x: 363
+        y: 178
+        width: 10
+        height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0

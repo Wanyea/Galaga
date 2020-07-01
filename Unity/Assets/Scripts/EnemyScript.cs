@@ -56,14 +56,7 @@ public class EnemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject YellowWithBlueWings = (GameObject)Instantiate(yellowBlueObject);
-        GameObject YellowWithBlueWings2 = (GameObject)Instantiate(yellowBlueObject);
-         GameObject YellowWithBlueWings3 = (GameObject)Instantiate(yellowBlueObject);
-          GameObject YellowWithBlueWings4 = (GameObject)Instantiate(yellowBlueObject);
-        GameObject WhiteWithRedWings = (GameObject)Instantiate(whiteRedObject);
-         GameObject WhiteWithRedWings2 = (GameObject)Instantiate(whiteRedObject);
-          GameObject WhiteWithRedWings3 = (GameObject)Instantiate(whiteRedObject);
-           GameObject WhiteWithRedWings4 = (GameObject)Instantiate(whiteRedObject);
+        
     }
 
 //TODO: Destroy/ Move / change animation of enemies when hit with "Blaster" game object.

@@ -1,3 +1,8 @@
 Unity/Temp
 Unity/Library
 Unity/Logs
+Unity/.vs
+Unity/*.csproj
+Unity/*.sln
+Unity/obj
+Unity/bin

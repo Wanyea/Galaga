@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//==========================================================
-//Player Collision Script - Deals with player interactions 
-//==========================================================
+//===================================================================
+//Player Collision Script - Deals with player collision interactions 
+//===================================================================
 
 public class PlayerCollisionScript : MonoBehaviour
 {
@@ -23,4 +23,7 @@ public class PlayerCollisionScript : MonoBehaviour
     {
         
     }
+
+
+
 }
