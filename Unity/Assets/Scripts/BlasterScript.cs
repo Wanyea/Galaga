@@ -9,12 +9,15 @@ using UnityEngine;
 public class BlasterScript : MonoBehaviour
 {
     public new Rigidbody2D rigidbody; 
+    private BoxCollider2D boxCollider;
 
     [SerializeField]
     PlayerScript playerScript;
 
     [SerializeField]
     Vector2 BlasterForce = new Vector2(0, 80.0f);
+
+  
 
     // Start is called before the first frame update
     void Start()
@@ -32,9 +35,9 @@ public class BlasterScript : MonoBehaviour
 
 //Destroys blaster when it has collided with other entities.
     private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.CompareTag("PlayerAndEnemies"))
+        if(collision.gameObject.CompareTag("Enemy"))
         {
-         Destroy(gameObject);
+          Destroy(gameObject);
         }
             }
     private void DestroySelf() 
