@@ -14,7 +14,7 @@ public class EnemyScript : MonoBehaviour
     public Collider2D collision;
     public Spline yellowSpline;
     public Spline redSpline;
-    Object coord00;
+    //Object coord00;
 
     void Awake() 
     {
@@ -35,24 +35,26 @@ public class EnemyScript : MonoBehaviour
         
 
     }
-
+    
 //TODO: Destroy/ Move / change animation of enemies when hit with "Blaster" game object.
-    public void OnTriggerCollision2D(Collision2D collision) {
+    private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.CompareTag("Blaster"))
         {
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
+          Destroy(gameObject);
         }
-
+            }
     }
 
+
+
+/* 
 //TODO: LERP to coordinate after enemies have finished their route on the spline. 
     public void spawnYellowEnemies() {
             //Tween.Spline(yellowSpline, yellowBlue, 0, 1, false, 2, 0, Tween.EaseInOut, Tween.LoopType.None);
             //Tween.Spline(yellowSpline, yellowBlue2, 0, 1, false, 2, 0.1f, Tween.EaseInOut, Tween.LoopType.None);
             //Tween.Spline(yellowSpline, yellowBlue3, 0, 1, false, 2, 0.2f, Tween.EaseInOut, Tween.LoopType.None);
             //Tween.Spline(yellowSpline, yellowBlue4, 0, 1, false, 2, 0.3f, Tween.EaseInOut, Tween.LoopType.None);
-            //??: transform.position = Vector3.MoveTowards(coord00.x, coord00.y, 1.0f);
+        
 
     }
 
@@ -65,3 +67,4 @@ public class EnemyScript : MonoBehaviour
     }
 
 }
+*/
