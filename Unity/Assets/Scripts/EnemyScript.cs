@@ -14,6 +14,9 @@ public class EnemyScript : MonoBehaviour
     public Collider2D collision;
     public Spline yellowSpline;
     public Spline redSpline;
+    public GameObject Spaceship;
+    public GameObject Blaster;
+
     //Object coord00;
 
     void Awake() 
@@ -35,15 +38,17 @@ public class EnemyScript : MonoBehaviour
         
 
     }
-    
-//TODO: Destroy/ Move / change animation of enemies when hit with "Blaster" game object.
-    private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.CompareTag("Blaster"))
+
+
+    void OnTriggerEnter2D(Collider2D collider) {
+        if(collider.gameObject.CompareTag("Player") || collider.gameObject.CompareTag("Blaster")) 
         {
-          Destroy(gameObject);
+            Destroy(gameObject);
+            animator.SetTrigger("EnemyExplosion");
         }
-            }
     }
+
+}
 
 
 

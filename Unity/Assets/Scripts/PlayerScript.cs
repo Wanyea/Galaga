@@ -24,6 +24,7 @@ public class PlayerScript : MonoBehaviour
 
     public new Rigidbody2D rigidbody { get; private set; }
     Animator animator;
+    GameObject Blaster;
     Object blasterRef;
 
 // Start is called before the first frame update
