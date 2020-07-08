@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1887090725075328279}
   - component: {fileID: 1887090725075328278}
   - component: {fileID: 1887090725075328276}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: WhiteWithRedWings
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -167,3 +167,9 @@ MonoBehaviour:
   rigidbody: {fileID: 0}
   animator: {fileID: 0}
   collision: {fileID: 0}
+  yellowSpline: {fileID: 0}
+  redSpline: {fileID: 0}
+  Spaceship: {fileID: 8045180731137892133, guid: e809453219ae84323ab92109f01fa4f4,
+    type: 3}
+  Blaster: {fileID: 4733570491384776130, guid: 481f78cbc8a0643b191438d37272b884, type: 3}
+  EnemyExplosion: 

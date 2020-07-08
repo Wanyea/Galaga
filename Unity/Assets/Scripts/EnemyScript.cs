@@ -16,6 +16,7 @@ public class EnemyScript : MonoBehaviour
     public Spline redSpline;
     public GameObject Spaceship;
     public GameObject Blaster;
+    public Animation enemyExplosion;
 
     //Object coord00;
 
@@ -27,7 +28,7 @@ public class EnemyScript : MonoBehaviour
     //Start is called before the first frame. 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        Animation enemyExplosion = GetComponent<Animation>();
         rigidbody = GetComponent<Rigidbody2D>();
 
     }
@@ -41,14 +42,17 @@ public class EnemyScript : MonoBehaviour
 
 
     void OnTriggerEnter2D(Collider2D collider) {
+
         if(collider.gameObject.CompareTag("Player") || collider.gameObject.CompareTag("Blaster")) 
         {
             Destroy(gameObject);
-            animator.SetTrigger("EnemyExplosion");
+            enemyExplosion.Play();
         }
+
     }
 
 }
+
 
 
 
