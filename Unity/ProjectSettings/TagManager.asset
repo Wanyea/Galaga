@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
   - Blaster
+  - redEnemy
+  - yellowEnemy
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,9 +18,9 @@ TagManager:
   - 
   - 
   - 'Background '
-  - PlayerAndEnemies
-  - 
-  - 
+  - Player
+  - Nonplayer
+  - Gamespace
   - 
   - 
   - 

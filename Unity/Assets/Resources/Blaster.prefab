@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5307644514129072933}
   - component: {fileID: 61713565983426830}
   - component: {fileID: 4864575476841939804}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: Blaster
   m_TagString: Blaster
   m_Icon: {fileID: 0}

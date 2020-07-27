@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Pixelplacement;
 using UnityEngine;
 
 //==========================================================================
@@ -7,43 +8,55 @@ using UnityEngine;
 //==========================================================================
 public class SpawnerScript : MonoBehaviour
 {
-    public Rigidbody2D rigidbody;
-    public Animator animator;
     public GameObject YellowWithBlueWings;
     public GameObject WhiteWithRedWings;
     public GameObject Spaceship;
-    Object yellowBlueObject;
-    Object whiteRedObject;
-    Object spaceshipObject;
+    public Spline yellowSpline;
+    public Spline redSpline;
+    public int enemiesPerWave;
+
+    [SerializeField]
+    private float timeBetweenEnemySpawn;
+
+    [SerializeField]
+    private float timeBetweenPlayerRespawn;
+
+    public bool isPlayerAlive;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
-        rigidbody = GetComponent<Rigidbody2D>();
-        spaceshipObject = Resources.Load("Spaceship");
-        yellowBlueObject = Resources.Load("YellowWithBlueWings");
-        whiteRedObject = Resources.Load("WhiteWithRedWings");
+        spawnPlayer();
+        StartCoroutine(spawnWaves()); 
+    }
 
-        //Spawns first spaceship at start of game. 
-        spawnSpaceship();
-
-        //Spawns first wave of enemies into the scene.
-        for(int i = 0; i < 4; i++) 
-        {
-           GameObject yellowClone = Instantiate(YellowWithBlueWings);
-           GameObject redClone = Instantiate(WhiteWithRedWings);
+    void Update() 
+    {
+        if(!isPlayerAlive) {
+            spawnPlayer();
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    private IEnumerator spawnWaves() {
+        for(int i = 0; i < enemiesPerWave; i++) 
+        {
+           GameObject yellowClone = Instantiate(YellowWithBlueWings);
+           var enemyScript =  yellowClone.GetComponent<EnemyScript>();
+           enemyScript.spline = yellowSpline;
+           GameObject redClone = Instantiate(WhiteWithRedWings);
+           enemyScript =  redClone.GetComponent<EnemyScript>();
+           enemyScript.spline = redSpline;
+
+           yield return new WaitForSeconds(timeBetweenEnemySpawn);
+        }
     
     }
 
-    public void spawnSpaceship() {
-        Instantiate(Spaceship, new Vector3(0.001f, -6.49f, -0.01f), Quaternion.identity);
+
+    private void spawnPlayer() {
+        Spaceship = Instantiate(Spaceship);
+        isPlayerAlive = true;
     }
 }

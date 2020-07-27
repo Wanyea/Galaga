@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 1887090725075328279}
   - component: {fileID: 1887090725075328278}
   - component: {fileID: 1887090725075328276}
-  m_Layer: 9
+  m_Layer: 10
   m_Name: WhiteWithRedWings
-  m_TagString: Enemy
+  m_TagString: redEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887090725075328274}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.029999971, y: -0.18262577, z: -6.8200674}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 1.670917, y: -5.048464, z: -6.8200674}
   m_LocalScale: {x: 5.106524, y: 5.106524, z: 5.106524}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &1887090725075328272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -96,10 +96,10 @@ Animator:
   m_GameObject: {fileID: 1887090725075328274}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 586ed06e6157446ac94345c8067e0d2a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -164,12 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b435a2b9be5c04496b67733a91614abe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 0}
-  animator: {fileID: 0}
-  collision: {fileID: 0}
-  yellowSpline: {fileID: 0}
-  redSpline: {fileID: 0}
-  Spaceship: {fileID: 8045180731137892133, guid: e809453219ae84323ab92109f01fa4f4,
-    type: 3}
-  Blaster: {fileID: 4733570491384776130, guid: 481f78cbc8a0643b191438d37272b884, type: 3}
-  EnemyExplosion: 
+  spline: {fileID: 0}
+  followers: {fileID: 0}
+  duration: 2
+  delay: 0
+  enemyHit: 0
+  speed: 1

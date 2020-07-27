@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using Pixelplacement;
 using UnityEngine;
 
@@ -9,71 +10,63 @@ using UnityEngine;
 public class EnemyScript : MonoBehaviour
 {
 
-    public Rigidbody2D rigidbody;
-    public Animator animator;
-    public Collider2D collision;
-    public Spline yellowSpline;
-    public Spline redSpline;
-    public GameObject Spaceship;
-    public GameObject Blaster;
-    public Animation enemyExplosion;
+    private Rigidbody2D rigidbody;
+    private Animator animator;
+    private Collider2D collision;
+    public Spline spline;
+    private GameObject spaceship;
+    private GameObject blaster;
+    public Transform followers;
+    //public Transform completedDestination;
+    public float duration = 2.0f;
+    public float delay = 0.0f;
+    public bool enemyHit;
+    public int speed;
 
     //Object coord00;
 
-    void Awake() 
-    {
-        
-    }
 
     //Start is called before the first frame. 
     void Start()
     {
-        Animation enemyExplosion = GetComponent<Animation>();
         rigidbody = GetComponent<Rigidbody2D>();
+        animator =  GetComponent<Animator>();
+        collision = GetComponent<Collider2D>();
+
+        Tween.Spline(spline, gameObject.transform, 0.0f, 1.0f, false, duration, delay, completeCallback: pathCompleted);
+        
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        
 
     }
 
+    private void pathCompleted() 
+    {
 
-    void OnTriggerEnter2D(Collider2D collider) {
+    }
 
-        if(collider.gameObject.CompareTag("Player") || collider.gameObject.CompareTag("Blaster")) 
+    void OnTriggerEnter2D(Collider2D collider) 
         {
-            Destroy(gameObject);
-            enemyExplosion.Play();
+            if(collider.gameObject.CompareTag("Blaster")) 
+            {
+             Destroy(gameObject);  
+                if(gameObject.CompareTag("yellowEnemy")) 
+                {
+                    ScoreManager.score += 100;
+                } else if(gameObject.CompareTag("redEnemy")) {
+                    ScoreManager.score += 50;
+                }   
+
+            } else if(collider.gameObject.CompareTag("Player")) {
+             Destroy(gameObject);    
+
+            }
+
         }
-
-    }
-
 }
 
-
-
-
-/* 
 //TODO: LERP to coordinate after enemies have finished their route on the spline. 
-    public void spawnYellowEnemies() {
-            //Tween.Spline(yellowSpline, yellowBlue, 0, 1, false, 2, 0, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(yellowSpline, yellowBlue2, 0, 1, false, 2, 0.1f, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(yellowSpline, yellowBlue3, 0, 1, false, 2, 0.2f, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(yellowSpline, yellowBlue4, 0, 1, false, 2, 0.3f, Tween.EaseInOut, Tween.LoopType.None);
-        
-
-    }
-
-    public void spawnWhiteEnemies(){
-            //Tween.Spline(redSpline, whiteRed, 0, 1, false, 2, 0, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(redSpline, whiteRed2, 0, 1, false, 2, 0.1f, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(redSpline, whiteRed3, 0, 1, false, 2, 0.2f, Tween.EaseInOut, Tween.LoopType.None);
-            //Tween.Spline(redSpline, whiteRed4, 0, 1, false, 2, 0.3f, Tween.EaseInOut, Tween.LoopType.None);
-        
-    }
-
-}
-*/

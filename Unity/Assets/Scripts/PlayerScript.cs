@@ -37,14 +37,14 @@ void Start()
 
 // Update is called once per frame
 void Update() 
-{
-    if(inputScript.isShootPressed) 
     {
+        if(inputScript.isShootPressed) 
+        {
 
-    GameObject Blaster = (GameObject)Instantiate(blasterRef);
-    Blaster.transform.position = new Vector3(transform.position.x + 0.08f, transform.position.y + .6f, -1);
+        GameObject Blaster = (GameObject)Instantiate(blasterRef);
+            Blaster.transform.position = new Vector3(transform.position.x + 0.08f, transform.position.y + .6f, -1);
 
-    }
+        }
 }  
 
 }

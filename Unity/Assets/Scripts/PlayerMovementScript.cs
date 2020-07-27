@@ -41,18 +41,16 @@ public class PlayerMovementScript : MonoBehaviour
 
             StopMovement();
         }
-
-
         
     }
 
 
     private void MovePlayerLeft() {
-        playerScript.rigidbody.velocity = (MoveLeftAmount);
+        playerScript.rigidbody.velocity = MoveLeftAmount;
     }
 
     private void MovePlayerRight() {
-        playerScript.rigidbody.velocity = (MoveRightAmount);
+        playerScript.rigidbody.velocity = MoveRightAmount;
 
     }
 
