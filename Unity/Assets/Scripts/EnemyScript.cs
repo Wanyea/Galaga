@@ -9,19 +9,25 @@ using UnityEngine;
 //===========================================================
 public class EnemyScript : MonoBehaviour
 {
-
+   
+    public SpawnerScript spawnerScript;
+    public EnemyMovementScript enemyMovementScript;
     private Rigidbody2D rigidbody;
     private Animator animator;
     private Collider2D collision;
     public Spline spline;
     private GameObject spaceship;
     private GameObject blaster;
+    public List<GameObject> coordinates;
+    public GameObject enemy;
     public Transform followers;
-    //public Transform completedDestination;
-    public float duration = 2.0f;
-    public float delay = 0.0f;
+    public float splineDuration = 2.0f;
+    public float splineDelay = 0.0f;
+    public float rotationDuration;
+    public float rotationDelay;
     public bool enemyHit;
-    public int speed;
+    public float maxTimer;
+    public float turnAngle;
 
     //Object coord00;
 
@@ -32,19 +38,37 @@ public class EnemyScript : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         animator =  GetComponent<Animator>();
         collision = GetComponent<Collider2D>();
+        spawnerScript = GetComponent<SpawnerScript>();
+        enemyMovementScript = GetComponent<EnemyMovementScript>();
 
-        Tween.Spline(spline, gameObject.transform, 0.0f, 1.0f, false, duration, delay, completeCallback: pathCompleted);
+        coordinates = new List<GameObject>();    
+
+        Tween.Spline(
+
+        spline, gameObject.transform, 0.0f, 1.0f, false, 
+        splineDuration, splineDelay, completeCallback: enemyMovementScript.pathCompleted
+
+        );
+
+        //TODO: get enemies to turn as they travel along the spline
+        //      code below turns along z-axis but try to find a better way.
+        //Tween.Rotation(gameObject.transform, new Vector3(0.0f, 0.0f, 0), rotationDuration, rotationDelay, Tween.EaseInOut);
+
+            /* if(gameObject.tag == "redEnemy") {
+                 turnAngle = -90;
+                 maxTimer = 2;
+                 StartCoroutine(rotateObject());
+            } else if (gameObject.tag == "yellowEnemy") {
+                turnAngle = 90;
+                maxTimer = 2;
+                StartCoroutine(rotateObject());
+            }*/
+        
         
 
     }
 
-    // Update is called once per frame
     void Update()
-    {
-
-    }
-
-    private void pathCompleted() 
     {
 
     }
@@ -67,6 +91,15 @@ public class EnemyScript : MonoBehaviour
             }
 
         }
-}
 
-//TODO: LERP to coordinate after enemies have finished their route on the spline. 
+private IEnumerator rotateObject()
+     {
+         float timer = 0f;
+         while(timer <= maxTimer)
+         {
+             gameObject.transform.Rotate (new Vector3 (0, 0, turnAngle) * Time.deltaTime);
+             timer +=Time.deltaTime;
+             yield return null;
+         }
+     }
+}

@@ -19,12 +19,6 @@ public class PlayerMovementScript : MonoBehaviour
     Vector2 MoveRightAmount = new Vector2(5.0f, 0.0f); 
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -43,7 +37,6 @@ public class PlayerMovementScript : MonoBehaviour
         }
         
     }
-
 
     private void MovePlayerLeft() {
         playerScript.rigidbody.velocity = MoveLeftAmount;

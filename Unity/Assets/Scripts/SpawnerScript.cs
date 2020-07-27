@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using Pixelplacement;
 using UnityEngine;
 
-//==========================================================================
+//=========================================================================
 //Spawner Script - Deals with spawning enemies, players and other entities
-//==========================================================================
+//=========================================================================
 public class SpawnerScript : MonoBehaviour
 {
+
     public GameObject YellowWithBlueWings;
     public GameObject WhiteWithRedWings;
     public GameObject Spaceship;
@@ -51,12 +52,12 @@ public class SpawnerScript : MonoBehaviour
 
            yield return new WaitForSeconds(timeBetweenEnemySpawn);
         }
-    
-    }
 
+    }
 
     private void spawnPlayer() {
         Spaceship = Instantiate(Spaceship);
         isPlayerAlive = true;
     }
+
 }
