@@ -105,6 +105,20 @@ MonoBehaviour:
   movementScript: {fileID: 8045180731137892155}
   collisonScript: {fileID: 8045180731137892154}
   blasterScript: {fileID: 0}
+  timeBetweenPlayerRespawn: 2
+  spawnerScript: {fileID: 0}
+  gameOverText: {fileID: 0}
+  gameplayScript: {fileID: 0}
+  boundary:
+    xMin: -5.3
+    xMax: 5.3
+    yMin: -6
+    yMax: -6
+  playerExplosion: {fileID: 2852719325428539351, guid: 8df5afa0c6bf048fb9474e0ad0110bd9,
+    type: 3}
+  isPlayerHit: 0
+  needRespawn: 0
+  playerLives: 3
 --- !u!114 &8045180731137892156
 MonoBehaviour:
   m_ObjectHideFlags: 0

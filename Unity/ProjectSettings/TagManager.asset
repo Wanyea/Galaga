@@ -8,6 +8,12 @@ TagManager:
   - redEnemy
   - yellowEnemy
   - Enemy
+  - Explosions
+  - EnemyBlaster
+  - PlayerExplosion
+  - PlayerLife2
+  - PlayerLife3
+  - PlayerLife4
   layers:
   - Default
   - TransparentFX

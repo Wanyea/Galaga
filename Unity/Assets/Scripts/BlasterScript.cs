@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class BlasterScript : MonoBehaviour
 {
-    public new Rigidbody2D rigidbody; 
+    private Rigidbody2D rigidbody; 
     private BoxCollider2D boxCollider;
 
     [SerializeField]
@@ -17,26 +17,26 @@ public class BlasterScript : MonoBehaviour
     [SerializeField]
     Vector2 BlasterForce = new Vector2(0, 80.0f);
 
-  
-
-    // Start is called before the first frame update
     void Start()
     {
       rigidbody = GetComponent<Rigidbody2D>();  
-      //Destroys blaster after it leaves the gamescreen.
+
+//Destroys blaster after it leaves the gamescreen.
       Invoke("DestroySelf", 2.0f);
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-        rigidbody.velocity = (BlasterForce);
+        rigidbody.velocity = BlasterForce;
     }
 
 //Destroys blaster when it has collided with other entities.
     private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.CompareTag("Enemy"))
-        {
+        if(
+           collision.gameObject.CompareTag("redEnemy") || 
+           collision.gameObject.CompareTag("yellowEnemy")
+          ) {
           Destroy(gameObject);
         }
             }

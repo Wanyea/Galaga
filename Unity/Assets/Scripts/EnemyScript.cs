@@ -18,9 +18,7 @@ public class EnemyScript : MonoBehaviour
     public Spline spline;
     private GameObject spaceship;
     private GameObject blaster;
-    public List<GameObject> coordinates;
-    public GameObject enemy;
-    public Transform followers;
+    public GameObject EnemyExplosion;
     public float splineDuration = 2.0f;
     public float splineDelay = 0.0f;
     public float rotationDuration;
@@ -29,10 +27,6 @@ public class EnemyScript : MonoBehaviour
     public float maxTimer;
     public float turnAngle;
 
-    //Object coord00;
-
-
-    //Start is called before the first frame. 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -40,15 +34,58 @@ public class EnemyScript : MonoBehaviour
         collision = GetComponent<Collider2D>();
         spawnerScript = GetComponent<SpawnerScript>();
         enemyMovementScript = GetComponent<EnemyMovementScript>();
-
-        coordinates = new List<GameObject>();    
-
+ 
         Tween.Spline(
 
         spline, gameObject.transform, 0.0f, 1.0f, false, 
-        splineDuration, splineDelay, completeCallback: enemyMovementScript.pathCompleted
+        splineDuration, splineDelay ,  completeCallback: pathCompleted
 
         );
+    
+    }
+
+    void Update()
+    {
+    
+    }
+
+    void OnTriggerEnter2D(Collider2D collider) 
+        {
+            if(collider.gameObject.CompareTag("Blaster")) 
+            {
+             Destroy(gameObject);
+             Instantiate(EnemyExplosion, gameObject.transform.position, Quaternion.identity);
+
+                if(gameObject.CompareTag("yellowEnemy")) 
+                {
+                    ScoreManager.score += 100;
+                } else if(gameObject.CompareTag("redEnemy")) {
+                    ScoreManager.score += 50;
+                }   
+
+            } else if(collider.gameObject.CompareTag("Player")) {
+             Destroy(gameObject);  
+
+            }
+
+        }
+
+private IEnumerator rotateObject()
+     {
+         float timer = 0f;
+         while(timer <= maxTimer)
+         {
+             gameObject.transform.Rotate (new Vector3 (0, 0, turnAngle) * Time.deltaTime);
+             timer += Time.deltaTime;
+             yield return null;
+         }
+     }
+
+
+    public void pathCompleted() 
+    {
+       
+    }
 
         //TODO: get enemies to turn as they travel along the spline
         //      code below turns along z-axis but try to find a better way.
@@ -66,40 +103,5 @@ public class EnemyScript : MonoBehaviour
         
         
 
-    }
 
-    void Update()
-    {
-
-    }
-
-    void OnTriggerEnter2D(Collider2D collider) 
-        {
-            if(collider.gameObject.CompareTag("Blaster")) 
-            {
-             Destroy(gameObject);  
-                if(gameObject.CompareTag("yellowEnemy")) 
-                {
-                    ScoreManager.score += 100;
-                } else if(gameObject.CompareTag("redEnemy")) {
-                    ScoreManager.score += 50;
-                }   
-
-            } else if(collider.gameObject.CompareTag("Player")) {
-             Destroy(gameObject);    
-
-            }
-
-        }
-
-private IEnumerator rotateObject()
-     {
-         float timer = 0f;
-         while(timer <= maxTimer)
-         {
-             gameObject.transform.Rotate (new Vector3 (0, 0, turnAngle) * Time.deltaTime);
-             timer +=Time.deltaTime;
-             yield return null;
-         }
-     }
 }

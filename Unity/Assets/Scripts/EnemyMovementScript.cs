@@ -13,24 +13,36 @@ public class EnemyMovementScript : MonoBehaviour {
 
     public EnemyScript enemyScript;
     public SpawnerScript spawnerScript;
+    public GameObject[] coordinates;
     public float lerpDuration;
     public float lerpDelay; 
-    public List<GameObject> coordinates;
-
-    void Update() 
+    
+      
+    void Start() 
     {
         enemyScript = GetComponent<EnemyScript>();
         spawnerScript = GetComponent<SpawnerScript>();
-
-        coordinates = new List<GameObject>();
-    }
-
-    //Method that deals with enemy LERP after they have completed the spline.
-    public void pathCompleted() 
-    {
         
-            Tween.Position(gameObject.transform, coordinates[0].transform.position, lerpDuration, lerpDelay, Tween.EaseInOut);
-        } 
+
 
     }
+
+
+
+
+    
+//Tween.Position(spawnerScript.yellowGameObjects[i].transform, 3.0f, 0.0f, Tween.EaseInOut);
+//Tween.Position(enemyScript.gameObject.transform, coordinates[i].transform.position, lerpDuration, lerpDelay, Tween.EaseInOut);
+    
+    
+}
+
+
+   
+        
+
+
+
+
+
 
