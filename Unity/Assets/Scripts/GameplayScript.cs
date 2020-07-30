@@ -9,7 +9,9 @@ using UnityEngine;
 
 public class GameplayScript : MonoBehaviour
 {
+    //private Scene currentScene;
     public SpawnerScript spawnerScript;
+    public PlayerScript playerScript;
     public GameObject PlayerLife2;
     public GameObject PlayerLife3;
     public GameObject PlayerLife4;
@@ -21,8 +23,10 @@ public class GameplayScript : MonoBehaviour
 void Start() 
 {
     spawnerScript = GetComponent<SpawnerScript>();
-    gameOverText = GetComponent<Text>();
+    playerScript = GetComponent<PlayerScript>();
+    GameObject.FindGameObjectWithTag("GameOverText").GetComponent<Text>().enabled = false;
 
+    //currentScene = SceneManager.GetActiveScene();
     
     PlayerLife2.GetComponent<SpriteRenderer>().enabled = false;
     PlayerLife3.GetComponent<SpriteRenderer>().enabled = true;

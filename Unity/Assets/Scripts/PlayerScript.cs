@@ -29,6 +29,7 @@ public class PlayerScript : MonoBehaviour
     public GameObject playerExplosion;
     public bool isPlayerHit;
     public bool needRespawn;
+    public bool isGameOver;
     public int playerLives;
     Animator animator;
     GameObject Blaster;
@@ -42,9 +43,8 @@ void Start()
     rigidbody = GetComponent<Rigidbody2D>();
     gameplayScript = GetComponent<GameplayScript>();
     spawnerScript = GetComponent<SpawnerScript>();
-    gameObject.GetComponent<Renderer>().enabled = true;
     needRespawn = false;
-
+    isGameOver = false;
 
 }
 
@@ -67,7 +67,7 @@ void Update()
 
 
 public void OnCollisionEnter2D(Collision2D collision) {
-          Instantiate(playerExplosion, gameObject.transform);
+          Instantiate(playerExplosion, GameObject.FindGameObjectWithTag("Player").transform.position, Quaternion.identity);
           needRespawn = true;
           isPlayerHit = true;
 
@@ -87,7 +87,11 @@ public void OnCollisionEnter2D(Collision2D collision) {
             isPlayerHit = false;
 
         } else if(playerLives == 0) {
-            gameplayScript.gameOverText.text = "GAME OVER";
+            isGameOver = true;
+            gameObject.GetComponent<Renderer>().enabled = false;
+            GameObject.FindGameObjectWithTag("GameOverText").GetComponent<Text>().enabled = true;
+            
+            //SceneManager.LoadScene(currentScene.name);
             //TODO: add a delay and refresh the scene/go to title screen...
         }
     }  
