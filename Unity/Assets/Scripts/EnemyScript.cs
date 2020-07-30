@@ -19,11 +19,12 @@ public class EnemyScript : MonoBehaviour
     private GameObject spaceship;
     private GameObject blaster;
     public GameObject EnemyExplosion;
+    public GameObject formation;
+    public GameObject enemyDestroyedAudio;
     public float splineDuration = 2.0f;
     public float splineDelay = 0.0f;
-    public float rotationDuration;
-    public float rotationDelay;
-    public bool enemyHit;
+    public float lerpDuration;
+    public float lerpDelay; 
     public float maxTimer;
     public float turnAngle;
 
@@ -51,6 +52,9 @@ public class EnemyScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider) 
         {
+            Instantiate(enemyDestroyedAudio, gameObject.transform.position, Quaternion.identity);
+             Destroy(enemyDestroyedAudio, 5.0f);
+        
             if(collider.gameObject.CompareTag("Blaster")) 
             {
              Destroy(gameObject);
@@ -84,23 +88,8 @@ private IEnumerator rotateObject()
 
     public void pathCompleted() 
     {
-       
+       //Tween.Position(gameObject.transform, formation.transform.position, lerpDuration,lerpDelay, Tween.EaseInOut);
     }
-
-        //TODO: get enemies to turn as they travel along the spline
-        //      code below turns along z-axis but try to find a better way.
-        //Tween.Rotation(gameObject.transform, new Vector3(0.0f, 0.0f, 0), rotationDuration, rotationDelay, Tween.EaseInOut);
-
-            /* if(gameObject.tag == "redEnemy") {
-                 turnAngle = -90;
-                 maxTimer = 2;
-                 StartCoroutine(rotateObject());
-            } else if (gameObject.tag == "yellowEnemy") {
-                turnAngle = 90;
-                maxTimer = 2;
-                StartCoroutine(rotateObject());
-            }*/
-        
         
 
 

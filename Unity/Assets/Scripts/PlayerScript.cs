@@ -22,15 +22,17 @@ public class PlayerScript : MonoBehaviour
     [SerializeField] public BlasterScript blasterScript;
     [SerializeField] private float timeBetweenPlayerRespawn;
     public SpawnerScript spawnerScript;
-    public Text gameOverText;
     public GameplayScript gameplayScript;
     public Boundary boundary;
     public new Rigidbody2D rigidbody { get; private set; }
-    public GameObject playerExplosion;
+    public GameObject playerExplosionAnimation;
+    public GameObject playerExplosionAudio;
+    public GameObject playerBlasterAudio;
     public bool isPlayerHit;
     public bool needRespawn;
     public bool isGameOver;
     public int playerLives;
+    
     Animator animator;
     GameObject Blaster;
     Object blasterRef;
@@ -61,13 +63,18 @@ void Update()
     {
          GameObject Blaster = (GameObject)Instantiate(blasterRef);
          Blaster.transform.position = new Vector3(transform.position.x + 0.08f, transform.position.y + .6f, -1);
+         Instantiate(playerBlasterAudio, gameObject.transform.position, Quaternion.identity);
+         Destroy(playerBlasterAudio, 5.0f);
+      
 
     }
 }  
 
 
 public void OnCollisionEnter2D(Collision2D collision) {
-          Instantiate(playerExplosion, GameObject.FindGameObjectWithTag("Player").transform.position, Quaternion.identity);
+          Instantiate(playerExplosionAudio, gameObject.transform.position, Quaternion.identity);
+          Destroy(playerExplosionAudio, 5.0f);
+          Instantiate(playerExplosionAnimation, GameObject.FindGameObjectWithTag("Player").transform.position, Quaternion.identity);
           needRespawn = true;
           isPlayerHit = true;
 

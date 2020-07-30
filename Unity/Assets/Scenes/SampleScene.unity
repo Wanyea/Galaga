@@ -1256,7 +1256,7 @@ Transform:
   - {fileID: 933703719}
   - {fileID: 2028508971}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &202072997
 GameObject:
@@ -1539,7 +1539,7 @@ Transform:
   - {fileID: 1768220513}
   - {fileID: 480254947}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217141145
 GameObject:
@@ -2794,7 +2794,7 @@ Transform:
   m_LocalScale: {x: 7.221838, y: 4.9377313, z: 1.6795226}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &480254947 stripped
 Transform:
@@ -3044,36 +3044,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &538708106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 538708107}
-  m_Layer: 0
-  m_Name: Audio
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &538708107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538708106}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &540171058
 GameObject:
@@ -6675,7 +6645,7 @@ RectTransform:
   - {fileID: 1555524327}
   - {fileID: 1979031891}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9335,7 +9305,7 @@ Transform:
   - {fileID: 402406241}
   - {fileID: 1550431293}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1840681976
 GameObject:
@@ -10399,16 +10369,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08a238e3d76454e66af8d3d1cc008f66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeBetweenEnemySpawn: 3
+  timeBetweenEnemySpawn: 0.1
+  enemyMovementScript: {fileID: 0}
+  yellowClone: {fileID: 0}
+  redClone: {fileID: 0}
   YellowWithBlueWings: {fileID: 8567276663245019859, guid: 141db059acb7541cc8a2b68dc576e29a,
     type: 3}
   WhiteWithRedWings: {fileID: 1121770828287888612, guid: 91cc963535fcf41f18afa126ddec4392,
     type: 3}
+  formation: {fileID: 0}
   Spaceship: {fileID: 8045180731137892133, guid: e809453219ae84323ab92109f01fa4f4,
     type: 3}
   yellowSpline: {fileID: 402406240}
   redSpline: {fileID: 1550431292}
-  enemiesPerWave: 1
+  enemiesPerWave: 5
   explosionTime: 0.1
   playerExplosionTime: 1
   offScreenX: 9.5
@@ -10505,8 +10479,6 @@ MonoBehaviour:
   - {fileID: 30530940}
   - {fileID: 1349280018}
   - {fileID: 807152020}
-  lerpDuration: 1
-  lerpDelay: 0
 --- !u!114 &2090145533
 MonoBehaviour:
   m_ObjectHideFlags: 0

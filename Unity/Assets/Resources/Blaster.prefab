@@ -144,6 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d552ab04fc9194d51a23c2fb7f16cc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 5307644514129072933}
+  playerBlaster: {fileID: 8893079415763425242, guid: 9bd962c9d1f0f4bbe93ec5db78ce4040,
+    type: 3}
   playerScript: {fileID: 0}
   BlasterForce: {x: 0, y: 30}

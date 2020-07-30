@@ -10,7 +10,7 @@ public class PlayerMovementScript : MonoBehaviour
 {
     //Reference to main player script
     [SerializeField]
-    PlayerScript playerScript = null;
+    PlayerScript playerScript;
 
     [SerializeField]
     Vector2 MoveLeftAmount = new Vector2(-5.0f, 0.0f);

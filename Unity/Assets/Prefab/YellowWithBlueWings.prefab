@@ -166,15 +166,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnerScript: {fileID: 0}
   enemyMovementScript: {fileID: 0}
-  enemyExplosionScript: {fileID: 0}
   spline: {fileID: 0}
   EnemyExplosion: {fileID: 6546477506143369135, guid: 6f38ad06d6ed24013b2ad4784688447e,
     type: 3}
-  explosionTime: 0.1
+  formation: {fileID: 0}
+  enemyDestroyedAudio: {fileID: 670721979171826059, guid: 2d3b82f0aa2994d63b1d086bd6be89eb,
+    type: 3}
   splineDuration: 2
   splineDelay: 0
-  rotationDuration: 0
-  rotationDelay: 0
-  enemyHit: 0
+  lerpDuration: 0
+  lerpDelay: 0
   maxTimer: 0
   turnAngle: 0

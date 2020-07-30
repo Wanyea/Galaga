@@ -10,8 +10,12 @@ public class SpawnerScript : MonoBehaviour
 {
 
     [SerializeField] private float timeBetweenEnemySpawn;
+    public EnemyMovementScript enemyMovementScript;
+    public GameObject yellowClone;
+    public GameObject redClone;
     public GameObject YellowWithBlueWings;
     public GameObject WhiteWithRedWings;
+    public GameObject formation;
     public GameObject Spaceship;
     public Spline yellowSpline;
     public Spline redSpline;
@@ -26,6 +30,7 @@ public class SpawnerScript : MonoBehaviour
 
     void Start()
     {
+        enemyMovementScript = GetComponent<EnemyMovementScript>();
         spawnPlayer();
         StartCoroutine(spawnWaves()); 
         
@@ -54,8 +59,11 @@ public class SpawnerScript : MonoBehaviour
     }
   
 
-  public void spawnPlayer() {
+  public void spawnPlayer() 
+  {
+    
     Instantiate(Spaceship);
-}
 
+  }
+   
 }

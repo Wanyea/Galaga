@@ -14,8 +14,7 @@ public class EnemyMovementScript : MonoBehaviour {
     public EnemyScript enemyScript;
     public SpawnerScript spawnerScript;
     public GameObject[] coordinates;
-    public float lerpDuration;
-    public float lerpDelay; 
+    
     
       
     void Start() 
@@ -23,8 +22,6 @@ public class EnemyMovementScript : MonoBehaviour {
         enemyScript = GetComponent<EnemyScript>();
         spawnerScript = GetComponent<SpawnerScript>();
         
-
-
     }
 
 

@@ -21,7 +21,7 @@ public class BlasterScript : MonoBehaviour
     {
       rigidbody = GetComponent<Rigidbody2D>();  
 
-//Destroys blaster after it leaves the gamescreen.
+      //Destroys blaster after it leaves the gamescreen.
       Invoke("DestroySelf", 2.0f);
 
     }
