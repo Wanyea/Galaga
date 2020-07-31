@@ -15,6 +15,7 @@ TagManager:
   - PlayerLife3
   - PlayerLife4
   - GameOverText
+  - greenEnemy
   layers:
   - Default
   - TransparentFX

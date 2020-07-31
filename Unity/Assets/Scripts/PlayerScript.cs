@@ -80,10 +80,8 @@ public void OnCollisionEnter2D(Collision2D collision) {
 
     if(isPlayerHit) {
         playerLives--;
-        Debug.Log("player lives = " + playerLives);
 
         if(playerLives == 2) {
-            Debug.Log("Successfully entered playerLives == 2");
             GameObject.FindGameObjectWithTag("PlayerLife3").GetComponent<SpriteRenderer>().enabled = false;
             StartCoroutine(playerRespawn());
             isPlayerHit = false;
@@ -106,10 +104,8 @@ public void OnCollisionEnter2D(Collision2D collision) {
 
 public IEnumerator playerRespawn() {
       if(needRespawn) {
-        Debug.Log("Dead");
         gameObject.GetComponent<Renderer>().enabled = false;
         yield return new WaitForSeconds(timeBetweenPlayerRespawn);
-        Debug.Log("Alive");
         gameObject.GetComponent<Renderer>().enabled = true;
         needRespawn = false;
       }

@@ -11,16 +11,20 @@ public class SpawnerScript : MonoBehaviour
 
     [SerializeField] private float timeBetweenEnemySpawn;
     public EnemyMovementScript enemyMovementScript;
-    public GameObject yellowClone;
-    public GameObject redClone;
     public GameObject YellowWithBlueWings;
     public GameObject WhiteWithRedWings;
+    public GameObject YellowWithGreenWings;
+    public GameObject beforeGameAudio;
     public GameObject formation;
     public GameObject Spaceship;
     public Spline yellowSpline;
     public Spline redSpline;
-    public int enemiesPerWave;
+    public Spline greenSpline;
+    public int redYellowEnemiesPerWave;
+    public int greenEnemiesPerWave;
     public float explosionTime;
+    public float nextGroup;
+    public float beforeGameAudioDuration;
     public float playerExplosionTime;
     public float offScreenX, offScreenY, offScreenZ;
     public PlayerScript playerScript;
@@ -28,11 +32,15 @@ public class SpawnerScript : MonoBehaviour
     public Transform playerWaiting;
     
 
-    void Start()
+  public IEnumerator Start()
     {
+
         enemyMovementScript = GetComponent<EnemyMovementScript>();
-        spawnPlayer();
-        StartCoroutine(spawnWaves()); 
+        Instantiate(beforeGameAudio, gameObject.transform.position, Quaternion.identity);
+        Destroy(beforeGameAudio, 8.0f);
+            yield return new WaitForSeconds(beforeGameAudioDuration);
+            spawnPlayer();
+            StartCoroutine(spawnWaves()); 
         
     }
 
@@ -44,7 +52,7 @@ public class SpawnerScript : MonoBehaviour
     }
   
     private IEnumerator spawnWaves() {
-        for(int i = 0; i < enemiesPerWave; i++) 
+        for(int i = 0; i < redYellowEnemiesPerWave; i++) 
         {
            GameObject yellowClone = Instantiate(YellowWithBlueWings, new Vector3(offScreenX, offScreenY, offScreenZ), Quaternion.identity);
            var enemyScript =  yellowClone.GetComponent<EnemyScript>();
@@ -55,6 +63,19 @@ public class SpawnerScript : MonoBehaviour
 
            yield return new WaitForSeconds(timeBetweenEnemySpawn);
         }
+
+        yield return new WaitForSeconds(nextGroup);
+
+        for(int j = 0; j < greenEnemiesPerWave; j++) 
+        {
+          GameObject greenClone = Instantiate(YellowWithGreenWings, new Vector3(offScreenX, offScreenY, offScreenZ), Quaternion.identity);
+          var enemyScript = greenClone.GetComponent<EnemyScript>();
+          enemyScript.spline = greenSpline;
+
+          yield return new WaitForSeconds(timeBetweenEnemySpawn);
+        }
+
+
 
     }
   

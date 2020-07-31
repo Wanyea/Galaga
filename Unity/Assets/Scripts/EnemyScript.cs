@@ -16,6 +16,7 @@ public class EnemyScript : MonoBehaviour
     private Animator animator;
     private Collider2D collision;
     public Spline spline;
+    public Vector3 lastPosition;
     private GameObject spaceship;
     private GameObject blaster;
     public GameObject EnemyExplosion;
@@ -26,7 +27,7 @@ public class EnemyScript : MonoBehaviour
     public float lerpDuration;
     public float lerpDelay; 
     public float maxTimer;
-    public float turnAngle;
+
 
     void Start()
     {
@@ -47,8 +48,20 @@ public class EnemyScript : MonoBehaviour
 
     void Update()
     {
+        Vector3 moveDirection = gameObject.transform.position - lastPosition;
+            if(moveDirection != Vector3.zero) 
+            {
+            
+                float angle = Mathf.Atan2(moveDirection.x, moveDirection.y) * Mathf.Rad2Deg;
+                gameObject.transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
+
+            }
+
+        lastPosition = gameObject.transform.position;
     
     }
+
+
 
     void OnTriggerEnter2D(Collider2D collider) 
         {
@@ -65,7 +78,10 @@ public class EnemyScript : MonoBehaviour
                     ScoreManager.score += 100;
                 } else if(gameObject.CompareTag("redEnemy")) {
                     ScoreManager.score += 50;
-                }   
+                }  else if(gameObject.CompareTag("greenEnemy")) {
+                    ScoreManager.score += 250;
+                }
+
 
             } else if(collider.gameObject.CompareTag("Player")) {
              Destroy(gameObject);  
@@ -74,23 +90,11 @@ public class EnemyScript : MonoBehaviour
 
         }
 
-private IEnumerator rotateObject()
-     {
-         float timer = 0f;
-         while(timer <= maxTimer)
-         {
-             gameObject.transform.Rotate (new Vector3 (0, 0, turnAngle) * Time.deltaTime);
-             timer += Time.deltaTime;
-             yield return null;
-         }
-     }
-
 
     public void pathCompleted() 
     {
        //Tween.Position(gameObject.transform, formation.transform.position, lerpDuration,lerpDelay, Tween.EaseInOut);
     }
         
-
 
 }
