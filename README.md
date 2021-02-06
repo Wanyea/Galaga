@@ -1,6 +1,5 @@
 # FGLSAMP/Dive Project (Summer 2020)
-*Galaga Game Developmenet* :space_invader:
-
+*Galaga Game Developmenet* :space_invader: <pre>![](galaga.gif) </pre>
 ## Contributors 
 - Wanyea Barbel
 
